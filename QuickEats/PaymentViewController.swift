@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class PaymentViewController: UIViewController, CLLocationManagerDelegate {
     private let locationManager = CLLocationManager()
 
     override func viewDidLoad() {

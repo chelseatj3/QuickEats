@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C758CBFCC2FCB7B3A7DDC39 /* Pods_QuickEats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E32E73C51312621F1B7C5CC /* Pods_QuickEats.framework */; };
 		6C2216C91ED131C5005F58ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2216C81ED131C5005F58ED /* AppDelegate.swift */; };
-		6C2216CB1ED131C5005F58ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2216CA1ED131C5005F58ED /* ViewController.swift */; };
+		6C2216CB1ED131C5005F58ED /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2216CA1ED131C5005F58ED /* PaymentViewController.swift */; };
 		6C2216CE1ED131C5005F58ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2216CC1ED131C5005F58ED /* Main.storyboard */; };
 		6C2216D01ED131C5005F58ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2216CF1ED131C5005F58ED /* Assets.xcassets */; };
 		6C2216D31ED131C5005F58ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2216D11ED131C5005F58ED /* LaunchScreen.storyboard */; };
@@ -17,6 +18,14 @@
 		6C2216F81ED1EFED005F58ED /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2216F71ED1EFED005F58ED /* DataManager.swift */; };
 		6C2216FB1ED20FC7005F58ED /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2216FA1ED20FC7005F58ED /* LocalAuthentication.framework */; };
 		6C96DD3A1EDFA54100BA65E6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C96DD391EDFA54100BA65E6 /* Utils.swift */; };
+		6C96DD3C1EDFE0C500BA65E6 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C96DD3B1EDFE0C500BA65E6 /* RestaurantsViewController.swift */; };
+		6C96DD401EE05D0200BA65E6 /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C96DD3F1EE05D0200BA65E6 /* RestaurantTableViewCell.xib */; };
+		6C96DD421EE05D2400BA65E6 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C96DD411EE05D2400BA65E6 /* RestaurantTableViewCell.swift */; };
+		6C96DD441EE05DA200BA65E6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C96DD431EE05DA200BA65E6 /* Networking.swift */; };
+		6C96DD471EE08EA500BA65E6 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C96DD461EE08EA500BA65E6 /* Business.swift */; };
+		6C96DD4A1EE0917F00BA65E6 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C96DD491EE0917F00BA65E6 /* YelpClient.swift */; };
+		A2CD759648744672CC94136B /* Pods_QuickEatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578CD638C41F92139510B127 /* Pods_QuickEatsTests.framework */; };
+		F2FCC00B6FC3A67AC311009E /* Pods_QuickEatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC171314E423B14362C3D91 /* Pods_QuickEatsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150B0C5078F895F80DF675C9 /* Pods-QuickEatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickEatsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickEatsTests/Pods-QuickEatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28E01A25E5452403E6DACBC2 /* Pods-QuickEatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickEatsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickEatsTests/Pods-QuickEatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E32E73C51312621F1B7C5CC /* Pods_QuickEats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickEats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		578CD638C41F92139510B127 /* Pods_QuickEatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickEatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2216C51ED131C5005F58ED /* QuickEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2216C81ED131C5005F58ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C2216CA1ED131C5005F58ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C2216CA1ED131C5005F58ED /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		6C2216CD1ED131C5005F58ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C2216CF1ED131C5005F58ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C2216D21ED131C5005F58ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +66,17 @@
 		6C2216F71ED1EFED005F58ED /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		6C2216FA1ED20FC7005F58ED /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		6C96DD391EDFA54100BA65E6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6C96DD3B1EDFE0C500BA65E6 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		6C96DD3F1EE05D0200BA65E6 /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
+		6C96DD411EE05D2400BA65E6 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		6C96DD431EE05DA200BA65E6 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		6C96DD461EE08EA500BA65E6 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		6C96DD491EE0917F00BA65E6 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		86D09DA401BE7806DF903D23 /* Pods-QuickEats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickEats.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickEats/Pods-QuickEats.release.xcconfig"; sourceTree = "<group>"; };
+		88F888C1BDAD4D8821DD47C2 /* Pods-QuickEatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickEatsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickEatsUITests/Pods-QuickEatsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9806F14A8AF5EBC12C73175 /* Pods-QuickEatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickEatsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickEatsUITests/Pods-QuickEatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC171314E423B14362C3D91 /* Pods_QuickEatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickEatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46C7648E2F33E3C969CE24E /* Pods-QuickEats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickEats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickEats/Pods-QuickEats.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C2216FB1ED20FC7005F58ED /* LocalAuthentication.framework in Frameworks */,
+				4C758CBFCC2FCB7B3A7DDC39 /* Pods_QuickEats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CD759648744672CC94136B /* Pods_QuickEatsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FCC00B6FC3A67AC311009E /* Pods_QuickEatsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +116,7 @@
 				6C2216E71ED131C6005F58ED /* QuickEatsUITests */,
 				6C2216C61ED131C5005F58ED /* Products */,
 				6C2216F91ED20FC6005F58ED /* Frameworks */,
+				8796EB181C9E0AB6585F46B5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +133,12 @@
 		6C2216C71ED131C5005F58ED /* QuickEats */ = {
 			isa = PBXGroup;
 			children = (
+				6C96DD481EE0914700BA65E6 /* API */,
+				6C96DD451EE08E8F00BA65E6 /* Models */,
+				6C96DD3E1EE05CC600BA65E6 /* View */,
+				6C96DD3D1EDFE0E300BA65E6 /* Controllers */,
 				6C2216F61ED1EFBC005F58ED /* Managers */,
 				6C2216C81ED131C5005F58ED /* AppDelegate.swift */,
-				6C2216CA1ED131C5005F58ED /* ViewController.swift */,
 				6C2216CC1ED131C5005F58ED /* Main.storyboard */,
 				6C2216CF1ED131C5005F58ED /* Assets.xcassets */,
 				6C2216D11ED131C5005F58ED /* LaunchScreen.storyboard */,
@@ -139,6 +170,7 @@
 			children = (
 				6C2216F71ED1EFED005F58ED /* DataManager.swift */,
 				6C96DD391EDFA54100BA65E6 /* Utils.swift */,
+				6C96DD431EE05DA200BA65E6 /* Networking.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -147,8 +179,58 @@
 			isa = PBXGroup;
 			children = (
 				6C2216FA1ED20FC7005F58ED /* LocalAuthentication.framework */,
+				4E32E73C51312621F1B7C5CC /* Pods_QuickEats.framework */,
+				578CD638C41F92139510B127 /* Pods_QuickEatsTests.framework */,
+				DCC171314E423B14362C3D91 /* Pods_QuickEatsUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C96DD3D1EDFE0E300BA65E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C2216CA1ED131C5005F58ED /* PaymentViewController.swift */,
+				6C96DD3B1EDFE0C500BA65E6 /* RestaurantsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6C96DD3E1EE05CC600BA65E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C96DD3F1EE05D0200BA65E6 /* RestaurantTableViewCell.xib */,
+				6C96DD411EE05D2400BA65E6 /* RestaurantTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6C96DD451EE08E8F00BA65E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C96DD461EE08EA500BA65E6 /* Business.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6C96DD481EE0914700BA65E6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6C96DD491EE0917F00BA65E6 /* YelpClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		8796EB181C9E0AB6585F46B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E46C7648E2F33E3C969CE24E /* Pods-QuickEats.debug.xcconfig */,
+				86D09DA401BE7806DF903D23 /* Pods-QuickEats.release.xcconfig */,
+				150B0C5078F895F80DF675C9 /* Pods-QuickEatsTests.debug.xcconfig */,
+				28E01A25E5452403E6DACBC2 /* Pods-QuickEatsTests.release.xcconfig */,
+				C9806F14A8AF5EBC12C73175 /* Pods-QuickEatsUITests.debug.xcconfig */,
+				88F888C1BDAD4D8821DD47C2 /* Pods-QuickEatsUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C2216ED1ED131C6005F58ED /* Build configuration list for PBXNativeTarget "QuickEats" */;
 			buildPhases = (
+				070D6E3D5DA4F5CBEF38D7A0 /* [CP] Check Pods Manifest.lock */,
 				6C2216C11ED131C5005F58ED /* Sources */,
 				6C2216C21ED131C5005F58ED /* Frameworks */,
 				6C2216C31ED131C5005F58ED /* Resources */,
+				790EB7F659B298B738DEEAA8 /* [CP] Embed Pods Frameworks */,
+				8B033A57BDCB00C5C5CE3C82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C2216F01ED131C6005F58ED /* Build configuration list for PBXNativeTarget "QuickEatsTests" */;
 			buildPhases = (
+				FED43FD27DE9B2EDE9DFFAC0 /* [CP] Check Pods Manifest.lock */,
 				6C2216D51ED131C5005F58ED /* Sources */,
 				6C2216D61ED131C5005F58ED /* Frameworks */,
 				6C2216D71ED131C5005F58ED /* Resources */,
+				DC805433CDC643D136C500FD /* [CP] Embed Pods Frameworks */,
+				3BC5E35D9B7CE1A58F2217A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C2216F31ED131C6005F58ED /* Build configuration list for PBXNativeTarget "QuickEatsUITests" */;
 			buildPhases = (
+				AE8588AAB9C7F1EB1DD96073 /* [CP] Check Pods Manifest.lock */,
 				6C2216E01ED131C6005F58ED /* Sources */,
 				6C2216E11ED131C6005F58ED /* Frameworks */,
 				6C2216E21ED131C6005F58ED /* Resources */,
+				DB6860CCBB1AF0099E5BE69C /* [CP] Embed Pods Frameworks */,
+				748EC50C3161B26ACA8B808D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C96DD401EE05D0200BA65E6 /* RestaurantTableViewCell.xib in Resources */,
 				6C2216D31ED131C5005F58ED /* LaunchScreen.storyboard in Resources */,
 				6C2216D01ED131C5005F58ED /* Assets.xcassets in Resources */,
 				6C2216CE1ED131C5005F58ED /* Main.storyboard in Resources */,
@@ -281,15 +373,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		070D6E3D5DA4F5CBEF38D7A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BC5E35D9B7CE1A58F2217A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickEatsTests/Pods-QuickEatsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		748EC50C3161B26ACA8B808D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickEatsUITests/Pods-QuickEatsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		790EB7F659B298B738DEEAA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickEats/Pods-QuickEats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B033A57BDCB00C5C5CE3C82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickEats/Pods-QuickEats-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8588AAB9C7F1EB1DD96073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6860CCBB1AF0099E5BE69C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickEatsUITests/Pods-QuickEatsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC805433CDC643D136C500FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickEatsTests/Pods-QuickEatsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED43FD27DE9B2EDE9DFFAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C2216C11ED131C5005F58ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C2216CB1ED131C5005F58ED /* ViewController.swift in Sources */,
+				6C96DD3C1EDFE0C500BA65E6 /* RestaurantsViewController.swift in Sources */,
+				6C2216CB1ED131C5005F58ED /* PaymentViewController.swift in Sources */,
 				6C2216F81ED1EFED005F58ED /* DataManager.swift in Sources */,
 				6C2216C91ED131C5005F58ED /* AppDelegate.swift in Sources */,
+				6C96DD421EE05D2400BA65E6 /* RestaurantTableViewCell.swift in Sources */,
 				6C96DD3A1EDFA54100BA65E6 /* Utils.swift in Sources */,
+				6C96DD441EE05DA200BA65E6 /* Networking.swift in Sources */,
+				6C96DD4A1EE0917F00BA65E6 /* YelpClient.swift in Sources */,
+				6C96DD471EE08EA500BA65E6 /* Business.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +674,7 @@
 		};
 		6C2216EE1ED131C6005F58ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46C7648E2F33E3C969CE24E /* Pods-QuickEats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UEPS25UM7;
@@ -453,6 +689,7 @@
 		};
 		6C2216EF1ED131C6005F58ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D09DA401BE7806DF903D23 /* Pods-QuickEats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UEPS25UM7;
@@ -467,6 +704,7 @@
 		};
 		6C2216F11ED131C6005F58ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150B0C5078F895F80DF675C9 /* Pods-QuickEatsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +719,7 @@
 		};
 		6C2216F21ED131C6005F58ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E01A25E5452403E6DACBC2 /* Pods-QuickEatsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +734,7 @@
 		};
 		6C2216F41ED131C6005F58ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9806F14A8AF5EBC12C73175 /* Pods-QuickEatsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = QuickEatsUITests/Info.plist;
@@ -508,6 +748,7 @@
 		};
 		6C2216F51ED131C6005F58ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F888C1BDAD4D8821DD47C2 /* Pods-QuickEatsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = QuickEatsUITests/Info.plist;
